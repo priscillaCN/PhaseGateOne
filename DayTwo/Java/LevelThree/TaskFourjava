@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class TaskFour {
+
+    public static void main(String[] args) {
+
+        Scanner collectInput = new Scanner(System.in);
+
+        System.out.println("Enter a number:");
+        int number = collectInput.nextInt();
+
+        int multiply = 1;
+
+        for(int count = 1; count <= 12; count++) {
+            multiply = count * number;
+
+            System.out.println(number + " x " + count " = " + multiply);
+        }
+
+    }
+
+}
